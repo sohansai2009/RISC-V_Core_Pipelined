@@ -8,7 +8,7 @@ project:
   top_module: "tt_um_yarp_core" # Update this to your actual top module name
 
 source_files:
-  - "tt_um_yarp_core.sv
+  - "tt_um_yarp_core.sv"
   - "if_id_pipeline.sv"
   - "id_ex_pipeline.sv"
   - "ex_mem_pipeline.sv"
