@@ -1,4 +1,5 @@
 ---
+yaml_version: 6
 project:
   title: "5-Stage Pipelined RISC-V Core"
   description: "A custom 5-stage pipelined RISC-V processor core implemented in SystemVerilog."
