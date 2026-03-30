@@ -1,0 +1,23 @@
+---
+project:
+  title: "5-Stage Pipelined RISC-V Core"
+  description: "A custom 5-stage pipelined RISC-V processor core implemented in SystemVerilog."
+  author: "Sohan Sai Dasaraju"
+  language: "SystemVerilog"
+  top_module: "yarp_top" # Update this to your actual top module name
+
+source_files:
+  - "if_id_pipeline.sv"
+  - "id_ex_pipeline.sv"
+  - "ex_mem_pipeline.sv"
+  - "mem_wb_pipeline.sv"
+  - "hazard_detection.sv"
+  - "yarp_fetch.sv"
+  - "yarp_decode.sv"
+  - "yarp_execute.sv"
+  - "yarp_control.sv"
+  - "yarp_branchcontrol.sv"
+
+architecture:
+  pipeline_stages: 5
+  isa: "RV32I"
