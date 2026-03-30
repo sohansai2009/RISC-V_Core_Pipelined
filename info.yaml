@@ -5,9 +5,10 @@ project:
   description: "A custom 5-stage pipelined RISC-V processor core implemented in SystemVerilog."
   author: "Sohan Sai Dasaraju"
   language: "SystemVerilog"
-  top_module: "yarp_top" # Update this to your actual top module name
+  top_module: "tt_um_yarp_core" # Update this to your actual top module name
 
 source_files:
+  - "tt_um_yarp_core.sv
   - "if_id_pipeline.sv"
   - "id_ex_pipeline.sv"
   - "ex_mem_pipeline.sv"
